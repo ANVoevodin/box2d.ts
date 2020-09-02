@@ -128,7 +128,7 @@ System.register([], function (exports_1, context_1) {
             exports_1("b2_maxAngularCorrection", b2_maxAngularCorrection = 8 / 180 * b2_pi);
             /// The maximum linear velocity of a body. This limit is very large and is used
             /// to prevent numerical problems. You shouldn't need to adjust this.
-            exports_1("b2_maxTranslation", b2_maxTranslation = 2);
+            exports_1("b2_maxTranslation", b2_maxTranslation = 4);
             exports_1("b2_maxTranslationSquared", b2_maxTranslationSquared = b2_maxTranslation * b2_maxTranslation);
             /// The maximum angular velocity of a body. This limit is very large and is used
             /// to prevent numerical problems. You shouldn't need to adjust this.

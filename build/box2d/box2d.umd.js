@@ -78,7 +78,7 @@
   const b2_maxAngularCorrection = 8 / 180 * b2_pi;
   /// The maximum linear velocity of a body. This limit is very large and is used
   /// to prevent numerical problems. You shouldn't need to adjust this.
-  const b2_maxTranslation = 2;
+  const b2_maxTranslation = 4;
   const b2_maxTranslationSquared = b2_maxTranslation * b2_maxTranslation;
   /// The maximum angular velocity of a body. This limit is very large and is used
   /// to prevent numerical problems. You shouldn't need to adjust this.
